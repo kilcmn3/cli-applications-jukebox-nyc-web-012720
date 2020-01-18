@@ -30,6 +30,8 @@ def play(songs)
       puts "Invalid input, please try again"
 end
 end
+
+
 def list(song)
   songs.each_with_index do |item, index|
     puts "#{index+1}. #{item}"
