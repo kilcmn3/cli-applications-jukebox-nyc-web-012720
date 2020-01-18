@@ -25,6 +25,9 @@ def play(songs)
   a = gets.strip
     if a.to_i < 10
         puts "Playing #{songs}"
+      else
+        puts "Invalid input, please try again/"
+        end
 end
 
 def list(songs)
