@@ -12,6 +12,12 @@ songs = [
 
 
 def help
+  puts "I accept the following commands:"
+    puts ""
+      puts ""
+        puts ""
+          puts ""
+
 end
 
 def play
