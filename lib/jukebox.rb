@@ -20,7 +20,7 @@ end
 def list(songs)
   result = nil
   songs.each_with_index do |item, index|
-    result = "#{index+1}"
+    result = "#{index+1}. #{item}"
   end
    puts result
 end
