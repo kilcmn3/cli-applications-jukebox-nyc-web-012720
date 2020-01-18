@@ -17,7 +17,7 @@ end
 def play
 end
 
-def list(songs)
+def list
   result = nil
   songs.each_with_index do |item, index|
     result = "#{index+1}. #{item}"
