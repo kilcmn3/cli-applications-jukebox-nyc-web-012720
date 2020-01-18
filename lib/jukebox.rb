@@ -18,6 +18,7 @@ def play
 end
 
 def list(songs)
+  result = []
   songs.each_with_index do |item, index|
 
   end
