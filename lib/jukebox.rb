@@ -23,7 +23,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   a = gets.strip
-  b = list(songs)
+  b = list(a)
       if
         puts "Playing #{b}"
       else
