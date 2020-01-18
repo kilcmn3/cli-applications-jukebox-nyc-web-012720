@@ -23,6 +23,7 @@ def list(songs)
   #   result << "#{index+1}. #{item}"
   # end
   #  print result
+  pp songs
 end
 
 def exit_jukebox
