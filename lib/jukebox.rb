@@ -25,8 +25,6 @@ def list
    puts result
 end
 
-list(songs)
-
 def exit_jukebox
 end
 
