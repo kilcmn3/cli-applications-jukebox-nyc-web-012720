@@ -28,6 +28,7 @@ def play(songs)
   #     elsif a
   #       puts "Invalid input, please try again"
   #       end
+  print songs
 end
 
 def list(songs)
