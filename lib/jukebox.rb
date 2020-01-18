@@ -29,7 +29,7 @@ def play(songs)
       else
         puts "Invalid input, please try again"
         end
-end
+      end
 
 def list(songs)
   songs.each_with_index do |item, index|
