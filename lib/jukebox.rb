@@ -17,13 +17,12 @@ end
 def play
 end
 
-def list(a)
+def list(songs)
   # result = []
   # songs.each_with_index do |item, index|
   #   result << "#{index+1}. #{item}"
   # end
   #  print result
-  pp a
 end
 
 def exit_jukebox
