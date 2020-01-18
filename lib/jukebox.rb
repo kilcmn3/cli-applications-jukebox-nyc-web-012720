@@ -18,7 +18,7 @@ def play
 end
 
 def list(songs)
-  result = []
+  result = nil
   songs.each_with_index do |item, index|
     result.push(index+1. item)
   end
