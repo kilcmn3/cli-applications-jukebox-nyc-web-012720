@@ -22,7 +22,7 @@ def list(songs)
   songs.each_with_index do |item, index|
     result.push(item, index+1)
   end
-  return result
+  return print result
 end
 
 list(songs)
