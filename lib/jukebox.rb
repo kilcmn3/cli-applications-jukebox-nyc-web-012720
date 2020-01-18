@@ -18,8 +18,8 @@ def play
 end
 
 def list(songs)
-  songs.each_with_index do |i|
-    if song-1 == i
+  songs.each_with_index do |item, index|
+
   end
   return result
 end
