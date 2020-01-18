@@ -20,7 +20,8 @@ def help
 
 end
 
-def play
+def play(songs)
+
 end
 
 def list(songs)
