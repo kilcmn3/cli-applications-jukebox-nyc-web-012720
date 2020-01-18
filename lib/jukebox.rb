@@ -20,7 +20,7 @@ end
 def list(songs)
   result = []
   songs.each_with_index do |item, index|
-    result.push(index+1m item)
+    result.push(index+1, item)
   end
   return print result
 end
