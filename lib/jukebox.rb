@@ -20,7 +20,7 @@ end
 def list(song)
   result = []
   songs.each_with_index do |i|
-    if song == songs[i+1]
+    if song-1 == songs[i+1]
   end
   return result
 end
