@@ -25,7 +25,7 @@ def play(songs)
   a = gets.strip
   songs.each_with_index do |item, index|
     if a.to_i == index + 1 || a == item
-      puts "#{index}"
+      puts "#{item}"
     elsif a == index
     end
   end
