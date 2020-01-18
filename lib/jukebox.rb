@@ -18,11 +18,11 @@ def play
 end
 
 def list(songs)
-  result = []
+
   songs.each_with_index do |item, index|
-    result << "#{index+1}. #{item}"
+    puts "#{index+1}. #{item}"
   end
-    result
+
 end
 
 def exit_jukebox
