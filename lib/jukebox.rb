@@ -22,6 +22,7 @@ def list(songs)
   songs.each_with_index do |i|
     result = songs[i+1]
   end
+  return result
 end
 
 def exit_jukebox
