@@ -18,9 +18,9 @@ def play
 end
 
 def list(song)
-  result = []
+  result = songs - 1
   songs.each_with_index do |i|
-    if song-1 == songs[i+1]
+    if song-1 == i
   end
   return result
 end
