@@ -24,7 +24,7 @@ def list(songs)
   end
   return result
 end
-
+list
 def exit_jukebox
 end
 
