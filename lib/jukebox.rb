@@ -23,7 +23,8 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   a = gets.strip
-  songs.each do |item, index|
+  songs.each_with_index do |item, index|
+
 end
 
 def list(song)
