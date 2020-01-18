@@ -26,7 +26,7 @@ def play(songs)
     if a.to_i < 10
         puts "Playing #{songs}"
       else
-        puts "Invalid input, please try again/"
+        puts "Invalid input, please try again"
         end
 end
 
