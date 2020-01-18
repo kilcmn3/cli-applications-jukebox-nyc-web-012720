@@ -21,15 +21,15 @@ def help
 end
 
 def play(songs)
-  puts "Please enter a song name or number:"
-  a = gets.strip
-  songs.each_with_index do |item, index|
-    if a.to_i == index + 1 || a == item
-      puts "#{item}"
-    else
-      puts "Invalid input, please try again"
-    end
-  end
+  # puts "Please enter a song name or number:"
+  # a = gets.strip
+  # songs.each_with_index do |item, index|
+  #   if a.to_i == index + 1 || a == item
+  #     puts "#{item}"
+  #   else
+  #     puts "Invalid input, please try again"
+  #   end
+  # end
 end
 
 def list(a)
