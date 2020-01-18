@@ -11,7 +11,6 @@ songs = [
 ]
 
 
-
 def help
 end
 
