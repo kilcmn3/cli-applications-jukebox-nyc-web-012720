@@ -18,7 +18,9 @@ def play
 end
 
 def list(songs)
+  songs.each_with_index do |i|
 
+  end
 end
 
 def exit_jukebox
