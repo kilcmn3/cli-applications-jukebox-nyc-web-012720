@@ -24,7 +24,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   a = gets.strip
   b = list(a)
-      if
+      if a
         puts "Playing #{b}"
       else
         puts "Invalid input, please try again"
@@ -33,7 +33,6 @@ def play(songs)
 
 def list(song)
   songs.each_with_index do |item, index|
-    if song > 10 || songs == item
     puts "#{index+1}. #{item}"
   end
 end
