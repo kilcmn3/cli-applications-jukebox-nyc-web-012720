@@ -33,6 +33,7 @@ def play(songs)
 
 def list(song)
   songs.each_with_index do |item, index|
+    if song > 10 || songs == item
     puts "#{index+1}. #{item}"
   end
 end
