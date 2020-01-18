@@ -22,7 +22,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  a = gets.chomp
+  a = gets.strip
 end
 
 def list(songs)
