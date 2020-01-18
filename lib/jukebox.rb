@@ -26,7 +26,7 @@ def play(songs)
     if  a.to_i > 10
         b = list(a.to_i)
         puts "Playing #{b}"
-      elsif a
+      elsif a != a.to_i
         puts "Invalid input, please try again"
         end
 
